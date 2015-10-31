@@ -140,12 +140,4 @@ module.exports = {
     apiKey: process.env.LOB_KEY || 'test_814e892b199d65ef6dbb3e4ad24689559ca'
   },
 
-  bitgo: {
-    accessToken: process.env.BITGO_ACCESS_TOKEN || '4fca3ed3c2839be45b03bbd330e5ab1f9b3989ddd949bf6b8765518bc6a0e709'
-  },
-
-  bitcore: {
-    bitcoinNetwork: process.env.BITCORE_BITCOIN_NETWORK || 'testnet'
-  }
-
 };
